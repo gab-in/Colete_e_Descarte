@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scrt_Lixos",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scrt_Lixos",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

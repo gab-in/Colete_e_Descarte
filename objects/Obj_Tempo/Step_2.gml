@@ -1,0 +1,1 @@
+global.tempoDecorrido1=segundosPassados;

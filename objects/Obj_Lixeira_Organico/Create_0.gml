@@ -1,0 +1,1 @@
+tipoIdentificador=TipoLixo.Organico;
