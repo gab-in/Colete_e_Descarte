@@ -27,3 +27,8 @@ intersecao2.palavrasPai[0] = id;
 intersecao2.palavrasPai[1] = Obj_Palavra_Papel;
 
 Obj_Palavra_Papel.grade[1][0]=intersecao2;
+
+//Letras prontas desde o inicio para ajudar
+var letra=grade[0][0];//Letra L
+letra.char="L"
+letra.estado=estadoCelula.Certo;

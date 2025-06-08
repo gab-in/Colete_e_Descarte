@@ -14,7 +14,7 @@ function Celula() constructor{
 		draw_rectangle(pamX,pamY,(pamX+pamTam),(pamY+pamTam),false);
 		
 		//Cor do texto
-		draw_set_color(c_white);
+		draw_set_color(c_black);
 		//Usa a fonte que tem dentro do arquivo ali
 		draw_set_font(Font_Cruzadinha);
 		//Centraliza o texto
@@ -79,4 +79,4 @@ enum TipoCelula{
 */
 global.cores[estadoCelula.Certo]=c_green;
 global.cores[estadoCelula.Errado]=c_red;
-global.cores[estadoCelula.Neutro]=c_black;
+global.cores[estadoCelula.Neutro]=c_white;

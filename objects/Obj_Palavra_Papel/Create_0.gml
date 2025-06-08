@@ -27,3 +27,7 @@ intersecao2.palavrasPai[0] = id;
 intersecao2.palavrasPai[1] = Obj_Palavra_Sacola;
 
 Obj_Palavra_Sacola.grade[0][4]=intersecao2;
+
+//Definir letras antes de começar
+var letra=grade[1][0];//Letra A
+letra.Sincronizar("A", estadoCelula.Certo);

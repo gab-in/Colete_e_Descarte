@@ -1,0 +1,1 @@
+//Comentário porque o tutorial do gamemaker pediu

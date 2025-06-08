@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Lixeira",
-    "path":"folders/Sprites/Lixeira.yy",
+    "path":"folders/Sprites/Colete e Descarte/Lixeira.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

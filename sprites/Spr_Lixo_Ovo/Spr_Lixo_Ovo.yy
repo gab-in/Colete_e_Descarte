@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Lixos",
-    "path":"folders/Sprites/Lixos.yy",
+    "path":"folders/Sprites/Colete e Descarte/Lixos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

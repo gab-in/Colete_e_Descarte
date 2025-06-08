@@ -1,0 +1,1 @@
+global.tempoDecorridoCruzadinha=Obj_Tempo.segundosPassados;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scrt_Dica",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scrt_Dica",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

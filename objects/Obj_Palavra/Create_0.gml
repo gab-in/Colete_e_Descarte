@@ -1,15 +1,6 @@
-/*
-*	Width e Height são extremamente importantes visto que representam a posição e número de letras nas palavras
-*	Width == Largura == Quantas letras para direita? (Se a palavra ta na vertical = 1)
-*	Height == Altura == Quantas letras para baixo? (Se a palavra ta na horizontal = 1)
-*/
 celulaTam=100;	//Tamanho do local onde vai ficar cada letra
-/*
-*	Em relação ao jogo a gente tem que:
-*/
-//No vídeo do cara essas duas variaveis são	"currentLine" e "currentCell"
-celulaY=0;	//currentLine
-celulaX=0;	//currentCel
+celulaY=0;
+celulaX=0;
 
 tentativaPermitida=true;
 selecionada=false;
@@ -75,8 +66,9 @@ checarPalavra = function(){
 acertou=function(){
 	//Deixar a palavra estática???
 	tentativaPermitida=false;
+	global.acertosCruzadinha++;
 }
 errou=function(){
 	//Deixar letras estáticas???	
-	
+	global.errosCruzadinha++;
 }

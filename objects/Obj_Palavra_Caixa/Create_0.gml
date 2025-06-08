@@ -16,3 +16,8 @@ temp.palavrasPai[0]=id;
 temp.palavrasPai[1]=Obj_Palavra_Garrafa;
 
 Obj_Palavra_Garrafa.grade[1][0]=temp;
+
+//Letras prontas desde o inicio para ajudar
+var letra=grade[0][3];//Letra X
+letra.char="X"
+letra.estado=estadoCelula.Certo;
