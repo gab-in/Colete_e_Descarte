@@ -1,1 +1,0 @@
-global.tempoDecorridoCeD1=Obj_Tempo.segundosPassados;//mas só funciona para fase 1

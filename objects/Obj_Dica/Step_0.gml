@@ -1,4 +1,11 @@
-emCima=position_meeting(mouse_x,mouse_y,Obj_Dica);	//Tô com o mouse em cima?
+if(position_meeting(mouse_x,mouse_y,Obj_Dica)){
+	cursor_sprite=Spr_MouseAgarrando;
+	emCima=true;
+}
+else{
+	cursor_sprite=Spr_MouseNormal;
+	emCima=false;
+}
 
 if(emCima && mouse_check_button_pressed(mb_left) && dicasDisponiveis>0){	//Cliquei?
 	clicou=true;

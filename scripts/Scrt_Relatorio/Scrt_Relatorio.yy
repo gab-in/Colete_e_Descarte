@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scrt_Relatorio",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scrt_Relatorio",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -9,6 +9,10 @@ selecionada=false;
 */
 grade = [];
 
+tentativas=0;
+pontuacao=0;
+acertos=0;
+
 for(var i=0;i<=width;i++){
 	for(var j=0;j<height;j++){
 		grade[i][j]=new Celula(); //Chama a struct criada
@@ -64,11 +68,11 @@ checarPalavra = function(){
 }
 
 acertou=function(){
-	//Deixar a palavra estática???
 	tentativaPermitida=false;
-	global.acertosCruzadinha++;
+	acertos++;
+	
+	pontuacao+=200;
 }
 errou=function(){
-	//Deixar letras estáticas???	
-	global.errosCruzadinha++;
+	tentativas+=1;
 }

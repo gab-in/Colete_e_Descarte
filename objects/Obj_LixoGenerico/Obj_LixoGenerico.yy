@@ -37,5 +37,5 @@
     "path":"sprites/Spr_Lixo/Spr_Lixo.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

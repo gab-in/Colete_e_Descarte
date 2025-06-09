@@ -1,9 +1,17 @@
+//Desconta pontuacao por minuto passado A PARTIR dos 5 minutos
+if(Obj_Tempo.segundosPassados>300){	//300 segundos  == 5 minutos
+	var minuto=(Obj_Tempo.segundosPassados%60);	//A cada minuto apos 5 min
+	if(minuto==0 && pontuacao>0){
+		pontuacao-=50;	//Desconta 50 pontos, só se ainda não tá zerado
+	}
+}
+
 if(!tentativaPermitida) exit;	//Isso aqui só serve se você conseguiu acertar a palavra
 
 if(position_meeting(mouse_x,mouse_y,Obj_Palavra)){
 	cursor_sprite=Spr_MouseAgarrando;	
 }
-else{
+else if(cursor_sprite!=Spr_MouseAgarrando){
 	cursor_sprite=Spr_MouseNormal;	
 }
 
