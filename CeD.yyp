@@ -68,6 +68,7 @@
     {"id":{"name":"Obj_Controle_Cruzadinha","path":"objects/Obj_Controle_Cruzadinha/Obj_Controle_Cruzadinha.yy",},},
     {"id":{"name":"Obj_Cursor","path":"objects/Obj_Cursor/Obj_Cursor.yy",},},
     {"id":{"name":"Obj_Dica","path":"objects/Obj_Dica/Obj_Dica.yy",},},
+    {"id":{"name":"Obj_EscreverNome","path":"objects/Obj_EscreverNome/Obj_EscreverNome.yy",},},
     {"id":{"name":"Obj_Lixeira_Organico","path":"objects/Obj_Lixeira_Organico/Obj_Lixeira_Organico.yy",},},
     {"id":{"name":"Obj_Lixeira_Reciclavel","path":"objects/Obj_Lixeira_Reciclavel/Obj_Lixeira_Reciclavel.yy",},},
     {"id":{"name":"Obj_LixeiraGenerico","path":"objects/Obj_LixeiraGenerico/Obj_LixeiraGenerico.yy",},},

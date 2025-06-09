@@ -10,8 +10,8 @@ selecionada=false;
 grade = [];
 
 tentativas=0;
-pontuacao=0;
-acertos=0;
+global.pontuacao=0;
+global.acertos=0;
 
 for(var i=0;i<=width;i++){
 	for(var j=0;j<height;j++){
@@ -69,9 +69,9 @@ checarPalavra = function(){
 
 acertou=function(){
 	tentativaPermitida=false;
-	acertos++;
-	
-	pontuacao+=200;
+	global.acertos+=1;
+	show_debug_message(global.	acertos);
+	global.pontuacao+=200;
 }
 errou=function(){
 	tentativas+=1;

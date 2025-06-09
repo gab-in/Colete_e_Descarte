@@ -13,12 +13,12 @@ function Scrt_Relatorio(){
 	
 	//Caso exista instance de Palavra, então estamos lidando com a fase 2
 	if(instance_exists(Obj_Palavra)){
-		acertos=Obj_Palavra.acertos;
+		acertos=global.acertos;
 		
 		//Na hora de colocar o relatório, erros deve ser interpretado como o numero de tentativas 
 		//antes de acertar a palavra
 		erros=Obj_Palavra.tentativas;
-		pontuacao=Obj_Palavra.pontuacao;
+		pontuacao=global.pontuacao;
 	}
 	
 	if(instance_exists(Obj_Tempo)){

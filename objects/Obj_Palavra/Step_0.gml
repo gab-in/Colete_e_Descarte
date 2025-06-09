@@ -1,8 +1,8 @@
 //Desconta pontuacao por minuto passado A PARTIR dos 5 minutos
 if(Obj_Tempo.segundosPassados>300){	//300 segundos  == 5 minutos
 	var minuto=(Obj_Tempo.segundosPassados%60);	//A cada minuto apos 5 min
-	if(minuto==0 && pontuacao>0){
-		pontuacao-=50;	//Desconta 50 pontos, só se ainda não tá zerado
+	if(minuto==0 && global.pontuacao>0){
+		global.pontuacao-=50;	//Desconta 50 pontos, só se ainda não tá zerado
 	}
 }
 
