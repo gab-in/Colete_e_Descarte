@@ -1,1 +1,2 @@
-clicou=false;
+global.nome="";
+hid=-1

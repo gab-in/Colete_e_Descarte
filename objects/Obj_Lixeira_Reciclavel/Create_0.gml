@@ -2,3 +2,4 @@
 event_inherited();
 
 tipoIdentificador=TipoLixo.Reciclavel;
+hid=-1

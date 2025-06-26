@@ -8,8 +8,8 @@
   "name":"Obj_Pontuacao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Colete e Descarte",
-    "path":"folders/Objetos/Colete e Descarte.yy",
+    "name":"Controle",
+    "path":"folders/Objetos/Controle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

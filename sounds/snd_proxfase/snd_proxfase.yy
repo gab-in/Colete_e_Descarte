@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.968,
+  "duration":1.9413378,
   "name":"snd_proxfase",
   "parent":{
     "name":"Sons",

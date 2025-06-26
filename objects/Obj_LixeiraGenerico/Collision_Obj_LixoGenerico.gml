@@ -3,13 +3,13 @@ if(mouse_check_button_released(mb_left)){
 	instance_destroy(other);
 
 	if(other.tipoIdentificador!=self.tipoIdentificador){
-		erros++;
+		global.erros++;
 		
 		global.pontuacao-=penalidade;
 	}
 
 	else{
-		acertos++;
+		global.acertos++;
 
 		global.pontuacao+=recompensa;
 	}

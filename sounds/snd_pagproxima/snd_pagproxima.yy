@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pagproxima",
+  "audioGroupId":{
+    "name":"narracao",
+    "path":"audiogroups/narracao",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.3040135,
+  "name":"snd_pagproxima",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pagproxima.mp3",
+  "type":0,
+  "volume":1.0,
+}

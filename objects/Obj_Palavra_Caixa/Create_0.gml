@@ -3,7 +3,7 @@ palavraCerta="CAIXA";
 width=1
 height=5
 tipo=TipoCelula.Vertical
-
+foiContabilizada=false;
 // Inherit the parent event
 event_inherited();
 

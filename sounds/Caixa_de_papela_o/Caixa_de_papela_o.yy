@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Caixa_de_papela_o",
+  "audioGroupId":{
+    "name":"narracao",
+    "path":"audiogroups/narracao",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.3680046,
+  "name":"Caixa_de_papela_o",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Caixa_de_papela_o.mp3",
+  "type":0,
+  "volume":1.0,
+}
