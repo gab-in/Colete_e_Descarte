@@ -42,42 +42,32 @@ checarPalavra = function(){
 
         var letraCerta = string_char_at(palavraCerta, i + 1);
 
-        // Adicione esta linha para depuração
-        show_debug_message("DEBUG: Checando célula [" + string(i) + "], Char: '" + celChar + "', Certa: '" + letraCerta + "'");
-
         if(letraCerta == celChar){
             if(celula.tipo != TipoCelula.Compartilhada){
                 celula.estado = estadoCelula.Certo;
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] definida como Certo.");
             }
             else{
                 celula.Sincronizar(celChar, estadoCelula.Certo);
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] sincronizada como Certo.");
             }
         }
         else if(celChar == ""){
             if(celula.tipo != TipoCelula.Compartilhada){
                 celula.estado = estadoCelula.Neutro;
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] definida como Neutro (vazia).");
             }
             else{
                 celula.Sincronizar(celChar, estadoCelula.Neutro);
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] sincronizada como Neutro (vazia).");
             }
         }
         else { // celChar não é vazio e é diferente de letraCerta (letra errada)
             if(celula.tipo != TipoCelula.Compartilhada){
                 celula.estado = estadoCelula.Errado;
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] definida como Errado (letra incorreta).");
             }
             else{
                 celula.Sincronizar(celChar, estadoCelula.Errado);
-                show_debug_message("DEBUG: -> Célula [" + string(i) + "] sincronizada como Errado (letra incorreta).");
             }
             errou();
         }
-        // Adicione esta linha para depuração
-        show_debug_message("DEBUG: Estado final da célula [" + string(i) + "]: " + string(celula.estado));
+
     }
 
     if(palavraFormada == palavraCerta){

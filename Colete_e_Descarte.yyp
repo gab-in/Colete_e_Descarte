@@ -46,6 +46,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"TutorialVFinal.mp4","CopyToMask":-1,"filePath":"datafiles","name":"TutorialVFinal.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"vvtt.mp4","CopyToMask":-1,"filePath":"datafiles","name":"vvtt.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,

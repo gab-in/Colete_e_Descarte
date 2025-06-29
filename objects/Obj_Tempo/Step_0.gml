@@ -6,11 +6,11 @@ segundosPassados+=delta_time/1000000;
 
 afk += delta_time/1000000;
 
-if(afk>=30){
+if(afk>=240){
 	//Spawna instance de tela de aviso de afk
 	instance_create_layer(room_width/2,room_height/2, "Assets_3", Obj_AvisoAFK);
 	
-	if(afk>=40){
+	if(afk>=300){
 		array_push(global.Jogadores, global.JogadorAtual);
 		global.jogadorAtual = undefined;
 		global.nome = "";
