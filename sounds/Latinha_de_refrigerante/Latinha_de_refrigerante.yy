@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Latinha_de_refrigerante",
+  "audioGroupId":{
+    "name":"narracao",
+    "path":"audiogroups/narracao",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.7093198,
+  "name":"Latinha_de_refrigerante",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Latinha_de_refrigerante.mp3",
+  "type":0,
+  "volume":1.0,
+}

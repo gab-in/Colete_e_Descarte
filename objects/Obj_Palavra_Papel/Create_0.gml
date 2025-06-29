@@ -3,7 +3,7 @@ palavraCerta="PAPEL";
 width=5;
 height=1;
 tipo=TipoCelula.Horizontal;
-
+foiContabilizada=false;
 // Inherit the parent event
 event_inherited();
 

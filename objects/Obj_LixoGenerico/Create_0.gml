@@ -25,4 +25,5 @@ offset_y=0;
 */
 depthBase=depth;		//Salva a depth original dos objetos
 depthOffset=0;			//Vai ser usada para manter a ordem do depth nova criada a cada clique
-global.depthContador=0;	//Serve para dizer quantas vezes a ordem de depth foi alterada
+global.depthContador=0;
+hid=-1//Serve para dizer quantas vezes a ordem de depth foi alterada

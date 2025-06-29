@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0a2d4c98-c21d-4b1e-82d7-a5a76b8d8aad","name":"0a2d4c98-c21d-4b1e-82d7-a5a76b8d8aad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"767916c6-912f-40c3-9c7b-cb3830c97031","name":"767916c6-912f-40c3-9c7b-cb3830c97031","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9d961b10-0334-43e3-92ee-196a3fd11d60","blendMode":0,"displayName":"default","isLocked":false,"name":"9d961b10-0334-43e3-92ee-196a3fd11d60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"da8423f9-f4e8-4bac-bfe4-eb1442bf8092","blendMode":0,"displayName":"default","isLocked":false,"name":"da8423f9-f4e8-4bac-bfe4-eb1442bf8092","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_MouseAgarrando",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Navegacao",
+    "path":"folders/Sprites/Navegacao.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a2d4c98-c21d-4b1e-82d7-a5a76b8d8aad","path":"sprites/Spr_MouseAgarrando/Spr_MouseAgarrando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"64871cf0-4459-4833-83f5-5810b4615d73","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"767916c6-912f-40c3-9c7b-cb3830c97031","path":"sprites/Spr_MouseAgarrando/Spr_MouseAgarrando.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d9798aee-cf13-4d2c-b037-1c6ac4562b29","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":5,
+    "yorigin":6,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

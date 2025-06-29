@@ -3,7 +3,6 @@ function Celula() constructor{
 	estado=estadoCelula.Neutro;	//Pode ser certo ou errado
 	palavrasPai=[];				//Armazenar referências às palavras que compartilham esta celula
 	tipo=noone;
-	
 	/*
 	*	Isso aqui vai dar cor para os quadrados, ESSA é a função desenhar
 	*/
@@ -65,7 +64,8 @@ function Celula() constructor{
 enum estadoCelula{
 	Certo,
 	Errado,
-	Neutro	//Não tenho certeza ainda se preciso disso
+	Neutro,//Não tenho certeza ainda se preciso disso
+	Selecionado
 }
 enum TipoCelula{
 	Horizontal,
@@ -80,3 +80,4 @@ enum TipoCelula{
 global.cores[estadoCelula.Certo]=c_green;
 global.cores[estadoCelula.Errado]=c_red;
 global.cores[estadoCelula.Neutro]=c_white;
+global.cores[estadoCelula.Selecionado]=c_gray;

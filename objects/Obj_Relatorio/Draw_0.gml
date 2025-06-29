@@ -1,0 +1,2 @@
+desenhar_tabela();
+
